@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
+
+body {
+text-align: center;
+background-color: #E08C09;
+margin: 0px;
+}
+
+#navbar {
+    background-color: #00097B;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#navbar a {
+    color: #E08C09;
+    text-decoration: none;
+}
+#navbar a:hover {
+    text-decoration: underline;
+    color: lightgrey;
+}
+.test {
+    font-family: Quintessential;
+    font-size: 40px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    /* border: greenyellow 5px solid; */
+    width: 30%;
+
+}
+.test2 {
+    font-family: Quintessential;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: rgb(89, 47, 255) 5px solid;   */
+    width: 30%;
+}
+
+
+.coffee-bar {
+    scale: 90%;
+    width: 50%;
+    /* border: rgb(241, 47, 255) 5px solid; */
+}
+
+h1 {
+    color: rgb(24, 11, 204);
+    font-family: Quintessential;
+    font-size: 45px;
+    /* border: rgb(61, 255, 47)5px solid; */
+    margin: 0px;
+}
+
+footer {
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border:  rgb(234, 255, 47)5px solid; */
+}
+
+.socials {
+    background-color: #00097B;
+    height: 70px;
+    /* border: rgb(9, 251, 1)5px solid; */
+}
+.facebook-icon{
+width: 50px;
+}
+.twitterx-icon{
+    width: 40px;
+}
+.instagram-icon{
+    width: 35px;
+}
+.linkedin-icon{
+    width: 55px;
+}
+
+h2 {
+    color: rgb(24, 11, 204);
+    font-family: Quintessential;
+    font-size: 45px;
+    /* border: rgb(61, 255, 47)5px solid; */
+    margin: 0px;
+}
+/* h2:hover {
+    color: white;
+} */
+
+.home-para {
+    padding: 0px 200px;
+    /* border: rgb(78, 47, 255)5px solid; */
+    font-size: larger;
+}
+.drinks-pastries-para {
+    padding: 0px 200px;
+    /* border: rgb(78, 47, 255)5px solid; */
+    font-size:15px;
+}
+.pastries-with-prices {
+    display: flex;
+    align-items: flex-start;
+    /* border: rgb(255, 47, 245)5px solid; */ 
+}
+
+.pain-au-chocolat { 
+    width: 150px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 0px 0px 0px 175px
+}
+
+.cookies {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 100px;
+} 
+
+.cinnamon-roll { 
+    width: 150px;
+    display:flex ;
+    flex-direction: column;
+    padding: 0px 175px 0px 0px
+} 
+h3 {
+    color: rgb(24, 11, 204);
+    font-family: Quintessential;
+    font-size: 20px;
+}
+h3:hover {
+    text-decoration:underline;
+    color: white;
+}
+
+.drinks-with-prices {
+    display: flex;
+    align-items: flex-start;
+
+    /* border: rgb(255, 47, 245)5px solid; */
+}
+.espresso { 
+    width: 150px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 0px 0px 0px 175px
+}
+
+.iced-coffee {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 100px;
+} 
+
+.latte { 
+    width: 150px;
+    display:flex ;
+    flex-direction: column;
+    padding: 0px 175px 0px 0px
+}
+.prices {
+    margin: 0px;
+    font-size: large;
+}
+.descriptions {
+    
+    font-size: small;
+
+}
